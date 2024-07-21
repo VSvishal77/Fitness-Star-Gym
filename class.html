@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Fitness star gym</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        />
+      </head>
+  <body>
+    <div class="container">
+        <div class="navBar">
+          <nav class="topNav">
+            <img src="logo.png" class="logo" />
+            <ul class="navList">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="class.html">Classes</a></li>
+              <li><a href="product.html">Products</a></li>
+              <li><a href="blog.html">Blogs</a></li>
+              <li><button class="subscription-btn">Join Us</button></li>
+            </ul>
+            <div class="burger">
+              <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+              <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa-solid fa-bars"></i>
+              </a> -->
+            </div>
+          </nav>
+        </div>
+
+        <div class="subscription-form">
+          <form class="#">
+              <div class="subscription-container">
+                  <span class="close-btn">X</span>
+                <h1>SUBSCRIPTION PLAN</h1>
+                
+                <label for="name"><b>Full Name:</b></label><br>
+                <input type="text" class="subscription-input-area" placeholder="Enter Name" name="name" id="name" required><br>
+            
+                <label for="email"><b>Email:</b></label><br>
+                <input type="text" class="subscription-input-area" placeholder="Enter Email" name="email" id="email" required><br>
+            
+                <label for="mobile"><b>Mobile Number:</b></label><br>
+                <input type="number" class="subscription-input-area" placeholder="XXXXXXXXXX" name="mobile" id="mobile" required><br>
+            
+                <label for="duration"><b>Duration:</b></label><br>
+      
+                
+                  <input type="radio" id="monthly" name="duration" value="monthly">
+                  <label for="monthly">Monthly</label>
+                  <input type="radio" id="yearly" name="duration" value="yearly">
+                  <label for="yearly">Yearly</label><br>
+      
+                <label for="payment"><b>Mode of Payment:</b></label><br>
+      
+                  <input type="radio" id="cash" name="payment" value="cash">
+                  <label for="cash">Cash</label>
+                  <input type="radio" id="online" name="payment" value="online">
+                  <label for="online">Online</label><br>
+      
+                <label for="training"><b>Personal Training:</b></label><br>
+                  <input type="radio" id="required" name="training" value="required">
+                  <label for="required">Required</label><br>
+                  <input type="radio" id="not_reqiured" name="training" value="not_reqiured">
+                  <label for="not_reqiured">Not Reqiured</label><br>
+      
+      
+                <input type="checkbox" id="condition" name="condition" value="Bike">
+                  <label for="condition"> I accept all terms and conditions
+              provided in this form.</label>
+      
+              <button type="submit" class="register-btn">Buy plan</button>
+              </div>
+      
+            </form>
+          </div>
+
+    <div class="container">
+      <div class="our-classes-container">
+        <div class="our-classes-text">
+            <h2>Our Classes</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="our-classes">
+          <div class="classes-items">
+            <img src="Classes pic1.jpeg" />
+            <p>6:30-7:30 AM</p>
+            <button class="classes-button">Power Excello</button>
+          </div>
+          <div class="classes-items">
+            <img src="Classes pic2.png" />
+            <p>6:30-7:30 AM</p>
+            <button class="classes-button">Mixed-Level Excello</button>
+          </div>
+          <div class="classes-items">
+            <img src="Classes pic3.jpeg" />
+            <p>6:30-7:30 AM</p>
+            <button class="classes-button">Beginner Level</button>
+          </div>
+        </div>
+      </div>
+      <div class="training-container">
+        <div class="training-text">
+            <h2>Our Training Partners</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="training">
+          <div class="training-items">
+            <img src="John-Smith.jpeg" />
+            <button class="training-button">John Smith</button>
+          </div>
+          <div class="training-items">
+            <img src="Anais-Louis.jpeg" />
+            <button class="training-button">Anais Louis</button>
+          </div>
+          <div class="training-items">
+            <img src="Phil-heath.jpeg" />
+            <button class="training-button">Phil heath</button>
+          </div>
+        </div>
+      </div>
+      <div class="caroser">
+            <div class="mySlides"><img src="Slide1.png" ></div>
+            <div class="mySlides"><img src="Slide2.jpg"></div>
+      </div>
+    </div>
+
+    <footer class="footer-container">
+        <div class="footer">
+      <div class="block1">
+        <img src="logo.png" />
+        <h3>Prioritize Your Fitness Goals with our world class services</h3>
+      </div>
+      <div class="block2">
+        <div class="block2-links">
+            <h2>COMPANY</h2>
+            <a href="#">About</a>
+            <a href="#">Careers</a>
+            <a href="#">Blogs</a>
+        </div>
+        <div class="block2-links">
+            <h2>CONTACT</h2>
+            <a href="#">Help/FAQs</a>
+            <a href="#">Press</a>
+            <a href="#">Mobile</a>
+        </div>
+        <div class="block2-links">
+            <h2>MORE</h2>
+            <a href="#">Program</a>
+            <a href="#">Plans</a>
+            <a href="#">Method</a>
+            
+        </div>
+    </div>
+      <div class="block3">
+        <h2>Popular Tags</h2>
+        <button class="gray-btn">ABS</button>
+        <button class="gray-btn">Workout</button>
+        <button class="yellow-btn">Nutrition</button>
+        <button class="gray-btn">gym</button>
+        <button class="gray-btn">Boxing</button>
+        <button class="yellow-btn">Trainers</button>
+        <button class="yellow-btn">Facilities</button>
+      </div>
+    </div>
+      <div class="copyright">
+        <h2>CopyRight  All  Rights  Reserved</h2>
+      </div>
+    </footer>
+
+    <!-- <Script>
+
+        var slideIndex = 0;
+        carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+
+  slideIndex++;
+
+  slideIndex > x.length && (slideIndex = 1);
+  x[slideIndex - 1].style.display = "block";
+}
+
+setInterval(function() {
+  carousel()
+}, 2 * 1000); // Change image every 2 seconds
+    </Script> -->
+
+    <script src="script.js"></script>
+
+  </body>
+</html>

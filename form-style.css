@@ -1,0 +1,31 @@
+.container{
+    height: 600px;
+    width: 30%;
+    background-color: #ffa500;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.container h1{
+    /* align-items: center; */
+    text-align: center;
+}
+.container label{
+    margin: 10px;
+}
+.container input{
+    margin: 10px;
+    padding: 10px;
+    /* border-radius: 10px; */
+    /* border: 1px solid #8D8383; */
+    /* width: 80%; */
+}
+.input-area{
+    width: 85%;
+}
+button{
+    padding: 8px;
+    color: black;
+    background-color: #8D8383;
+    border-radius: 10px;
+}
